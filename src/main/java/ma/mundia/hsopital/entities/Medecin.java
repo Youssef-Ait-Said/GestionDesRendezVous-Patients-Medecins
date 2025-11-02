@@ -12,7 +12,7 @@ import java.util.Collection;
 public class Medecin {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String nom;
+    private String name;
     private String email;
     private String specialte;
     @OneToMany(mappedBy = "medecin" , fetch = FetchType.LAZY)
