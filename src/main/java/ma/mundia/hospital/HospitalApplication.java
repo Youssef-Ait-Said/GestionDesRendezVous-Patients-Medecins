@@ -61,7 +61,6 @@ public class HospitalApplication {
             consultation.setRendezVous(rendezVous1);
             consultation.setRapport("Ce rendez-vous est dédié a .....");
             iHospitalService.saveConsultation(consultation);
-
         };
     }
 
