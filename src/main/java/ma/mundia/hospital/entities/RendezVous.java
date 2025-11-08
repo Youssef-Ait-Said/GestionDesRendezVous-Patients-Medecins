@@ -1,7 +1,6 @@
-package ma.mundia.hsopital.entities;
+package ma.mundia.hospital.entities;
 
 import jakarta.persistence.*;
-import jakarta.persistence.metamodel.MapAttribute;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,6 +13,7 @@ public class RendezVous {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Date date;
+    @Enumerated(EnumType.STRING)
     private StatusRDV status;
     @ManyToOne
     private Patient patient;

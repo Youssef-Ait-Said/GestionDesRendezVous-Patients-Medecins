@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ma.mundia</groupId>
-    <artifactId>hsopital</artifactId>
+    <artifactId>hospital</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>hsopital</name>
     <description>hsopital</description>

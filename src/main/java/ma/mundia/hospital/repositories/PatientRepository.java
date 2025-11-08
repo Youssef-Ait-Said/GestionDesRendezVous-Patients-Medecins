@@ -1,7 +1,8 @@
-package ma.mundia.hsopital.repositories;
+package ma.mundia.hospital.repositories;
 
-import ma.mundia.hsopital.entities.Patient;
+import ma.mundia.hospital.entities.Patient;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PatientRepository extends JpaRepository<Patient, Long >{
+    Patient findByName(String name);
 }

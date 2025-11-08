@@ -1,7 +1,6 @@
-package ma.mundia.hsopital.repositories;
+package ma.mundia.hospital.repositories;
 
-import ma.mundia.hsopital.entities.Medecin;
-import ma.mundia.hsopital.entities.RendezVous;
+import ma.mundia.hospital.entities.RendezVous;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RendezVousRepository extends JpaRepository<RendezVous, Long >{

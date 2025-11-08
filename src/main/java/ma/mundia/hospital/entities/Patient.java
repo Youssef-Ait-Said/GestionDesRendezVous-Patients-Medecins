@@ -1,4 +1,4 @@
-package ma.mundia.hsopital.entities;
+package ma.mundia.hospital.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

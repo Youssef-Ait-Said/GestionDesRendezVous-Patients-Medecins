@@ -1,4 +1,4 @@
-package ma.mundia.hsopital.entities;
+package ma.mundia.hospital.entities;
 
 public enum StatusRDV {
     PENDING,
